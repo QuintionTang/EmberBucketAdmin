@@ -29,8 +29,8 @@ https://themeforest.net/item/bucket-admin-bootstrap-3-responsive-flat-dashboard/
 ## 运行 / 开发
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit your app at [http://localhost:4300](http://localhost:4300).
+* Visit your tests at [http://localhost:4300/tests](http://localhost:4200/tests).
 
 
 ### 运行测试
