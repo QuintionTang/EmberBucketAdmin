@@ -1,0 +1,43 @@
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+body {
+    color: #767676;
+    background: #f1f2f7;
+    font-family: "pingfang sc", "宋体", Arial, Helvetica, sans-serif, serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 12px;
+    text-rendering: optimizeLegibility;
+}
+ul,
+.list-unstyled {
+    padding-left: 30px;
+}
+ul li {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+::selection {
+    background: #1fb5ad;
+    color: #fff;
+}
+::-moz-selection {
+    background: #1fb5ad;
+    color: #fff;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
