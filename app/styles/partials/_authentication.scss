@@ -28,7 +28,6 @@
     }
     .checkbox {
         margin-bottom: 14px;
-        padding-left: 20px;
     }
     .checkbox {
         font-weight: normal;
@@ -63,7 +62,7 @@
         text-transform: uppercase;
         font-weight: 300;
         font-family: "Open Sans", sans-serif;
-        margin: 20px 0 5px;
+        margin: 10px 0 5px;
     }
     p {
         text-align: left;
@@ -73,7 +72,8 @@
     }
     a {
         color: #1fb5ac;
-        text-decoration: underline;
+        text-decoration: none;
+        outline: none;
         &:hover {
             color: #1fb5ac;
         }

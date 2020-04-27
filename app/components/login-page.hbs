@@ -1,6 +1,6 @@
     <div class="container">
 
-      <form class="form-signin" {{action 'authenticate' on='submit'}}>
+      <form class="form-signin form-parsley" {{action 'authenticate' on='submit'}}>
         <h2 class="heading">用户登录</h2>
         <div class="login-wrap">
             <div class="user-login-info">
@@ -9,11 +9,12 @@
             </div>
             <label class="checkbox">
                 <input type="checkbox" value="remember-me"> 记住登录状态
-                <span class="pull-right">
-                    <a data-toggle="modal" href="#"> 忘记密码？</a>
-
-                </span>
+                
             </label>
+            <span class="pull-right">
+                <a data-toggle="modal" href="#"> 忘记密码？</a>
+
+            </span>
             <button class="btn btn-lg btn-login btn-block" type="submit">立即登录</button>
 
             <div class="registration">
